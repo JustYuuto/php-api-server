@@ -1,0 +1,17 @@
+{
+  "name": "nethermc/api-server",
+  "description": "Simple API Server",
+  "version": "1.0.0",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "NetherMC\\ApiServer\\": "lib/"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*"
+  },
+  "license": "MIT",
+  "readme": "https://github.com/NetherMCtv/php-api-server#readme"
+}
