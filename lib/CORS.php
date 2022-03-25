@@ -9,6 +9,9 @@ namespace NetherMC\ApiServer;
 class CORS
 {
 
+    /**
+     * @param array|null $options
+     */
     public function __construct(?array $options = [])
     {
         if (gettype($options['enabled']) !== 'boolean') {
