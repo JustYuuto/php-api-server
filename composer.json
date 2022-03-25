@@ -1,7 +1,6 @@
 {
   "name": "nethermc/api-server",
   "description": "Simple API Server",
-  "version": "1.0.0",
   "type": "library",
   "autoload": {
     "psr-4": {
@@ -9,8 +8,7 @@
     }
   },
   "require": {
-    "php": ">=7.2",
-    "ext-json": "*"
+    "php": ">=7.1"
   },
   "license": "MIT",
   "readme": "https://github.com/NetherMCtv/php-api-server#readme"
