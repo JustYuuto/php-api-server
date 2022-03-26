@@ -2,6 +2,7 @@
   "name": "nethermc/api-server",
   "description": "Simple API Server",
   "type": "library",
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "NetherMC\\ApiServer\\": "lib/"
